@@ -6,7 +6,7 @@ set LOGFILE=C:\AandD2025remake\kiosk-log.txt
 
 echo === Kiosk start: %DATE% %TIME% === >> "%LOGFILE%"
 
-cd /d C:\AandD2025remake
+cd /d C:\AandD2025remake\HistoryMuseum
 
 echo Starting Python HTTP server... >> "%LOGFILE%"
 start "" /min cmd /c "python -m http.server"
